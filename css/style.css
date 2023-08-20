@@ -3,3 +3,45 @@ This file contains the CSS code for styling the basic calculator user interface.
 sets the background color, font size, border radius, and other style properties for
 the calculator. It also sets the styles for the input fields and submit button.
 */
+
+.calculator {
+	margin: 50px auto;
+	padding: 20px;
+	max-width: 500px;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.calculator h2 {
+	margin-top: 0;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
